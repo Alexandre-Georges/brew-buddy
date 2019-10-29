@@ -1,0 +1,4 @@
+.result > * {
+	font-weight: bold;
+	color: black !important;
+}
