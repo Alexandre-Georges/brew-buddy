@@ -1,5 +1,7 @@
 <script>
 	import MaltExtracts from './components/MaltExtracts.svelte';
+	import DmeLmeConversion from './components/DmeLmeConversion.svelte';
+	import ConcentratedGravity from './components/ConcentratedGravity.svelte';
 	import GravityCorrection from './components/GravityCorrection.svelte';
 	import MaltPoints from './components/MaltPoints.svelte';
 	import HopBittering from './components/HopBittering.svelte';
@@ -14,7 +16,13 @@
 			<div class="card-content">
 				<h3>Brew Buddy</h3>
 				<div class="row">
+					<DmeLmeConversion></DmeLmeConversion>
+				</div>
+				<div class="row">
 					<MaltPoints></MaltPoints>
+				</div>
+				<div class="row">
+					<ConcentratedGravity></ConcentratedGravity>
 				</div>
 				<div class="row">
 					<GravityCorrection></GravityCorrection>
