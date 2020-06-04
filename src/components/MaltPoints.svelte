@@ -9,16 +9,16 @@
 	</div>
 	<form class="row" on:submit|preventDefault>
 		<div class="col s4 input-field">
-			<input id="gallon-volume" class="small" type="number" min="0.1" max="100" step="0.1" bind:value="{$store.gallonVolume}" />
-			<label for="gallon-volume">Volume (gal)</label>
+			<input id="mp-gallon-volume" class="small" type="number" min="0.1" max="100" step="0.1" bind:value="{$store.gallonVolume}" />
+			<label for="mp-gallon-volume">Volume (gal)</label>
 		</div>
 		<div class="col s4 input-field">
-			<input id="target-gravity" class="small" type="number" min="0.0" max="2.0" step="0.001" bind:value="{$store.targetGravity}" />
-			<label for="target-gravity">Target gravity</label>
+			<input id="mp-target-gravity" class="small" type="number" min="0.0" max="2.0" step="0.001" bind:value="{$store.targetGravity}" />
+			<label for="mp-target-gravity">Target Gravity</label>
 		</div>
 		<div class="col s4 input-field pink lighten-5 result">
-			<input id="points" class="small" type="number" disabled bind:value="{$points}"/>
-			<label for="points">Points</label>
+			<input id="mp-points" class="small" type="number" disabled bind:value="{$points}"/>
+			<label for="mp-points">Points</label>
 		</div>
 	</form>
 </div>

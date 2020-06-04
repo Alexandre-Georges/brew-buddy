@@ -31,33 +31,33 @@
 	</div>
 	<div class="row">
 		<div class="col s3 input-field">
-			<input id="gallon-boil-volume" class="small" type="number" min="0.1" max="200" step="0.1" bind:value="{$store.gallonBoilVolume}" />
-			<label for="gallon-boil-volume">Boil volume (gal)</label>
+			<input id="hb-gallon-boil-volume" class="small" type="number" min="0.1" max="200" step="0.1" bind:value="{$store.gallonBoilVolume}" />
+			<label for="hb-gallon-boil-volume">Boil Volume (gal)</label>
 		</div>
 		<div class="col s3 input-field">
-			<input id="gallon-target-volume" class="small" type="number" min="0.1" max="200" step="0.1" bind:value="{$store.gallonTargetVolume}" />
-			<label for="gallon-target-volume">Target volume (gal)</label>
+			<input id="hb-gallon-target-volume" class="small" type="number" min="0.1" max="200" step="0.1" bind:value="{$store.gallonTargetVolume}" />
+			<label for="hb-gallon-target-volume">Target Volume (gal)</label>
 		</div>
 		<div class="col s3 input-field">
-			<input id="target-gravity" class="small" type="number" min="0.0" max="2.0" step="0.001" bind:value="{$store.targetGravity}" />
-			<label for="target-gravity">Target gravity</label>
+			<input id="hb-target-gravity" class="small" type="number" min="0.0" max="2.0" step="0.001" bind:value="{$store.targetGravity}" />
+			<label for="hb-target-gravity">Target Gravity</label>
 		</div>
 	</div>
 	<div class="row">
-		<h5>Hop additions</h5>
+		<h5>Hop Additions</h5>
 	</div>
 	<form class="row" on:submit|preventDefault="{addHop}">
 		<div class="col s3 input-field">
-			<input id="ounce-quantity" class="small" type="number" min="0.01" max="50.00" step="0.01" bind:value="{ounceQuantity}" />
-			<label for="ounce-quantity">Quantity (oz)</label>
+			<input id="hb-ounce-quantity" class="small" type="number" min="0.01" max="50.00" step="0.01" bind:value="{ounceQuantity}" />
+			<label for="hb-ounce-quantity">Quantity (oz)</label>
 		</div>
 		<div class="col s3 input-field">
-			<input id="percentage-aa" class="small" type="number" min="0.1" max="80" step="0.1" bind:value="{percentageAA}" />
-			<label for="percentage-aa">AA (%)</label>
+			<input id="hb-percentage-aa" class="small" type="number" min="0.1" max="80" step="0.1" bind:value="{percentageAA}" />
+			<label for="hb-percentage-aa">AA (%)</label>
 		</div>
 		<div class="col s3 input-field">
-			<input id="minute-boil-time" class="small" type="number" min="1" max="180" step="1" bind:value="{minuteBoilTime}" />
-			<label for="minute-boil-time">Boil time (minutes)</label>
+			<input id="hb-minute-boil-time" class="small" type="number" min="1" max="180" step="1" bind:value="{minuteBoilTime}" />
+			<label for="hb-minute-boil-time">Boil time (minutes)</label>
 		</div>
 		<div class="col s3 input-field">
 			<button class="btn waves-effect waves-light" type="submit">Add<i class="material-icons right">add</i></button>

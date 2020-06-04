@@ -25,12 +25,12 @@
 	</div>
 	<form class="row" on:submit|preventDefault="{addMalt}">
 		<div class="col s4 input-field">
-			<input id="ounce-quantity" class="small" type="number" min="0.01" max="50.00" step="0.01" bind:value="{ounceQuantity}" />
-			<label for="ounce-quantity">Quantity (oz)</label>
+			<input id="me-ounce-quantity" class="small" type="number" min="0.01" max="50.00" step="0.01" bind:value="{ounceQuantity}" />
+			<label for="me-ounce-quantity">Quantity (oz)</label>
 		</div>
 		<div class="col s4 input-field">
-			<input id="point-density" class="small" type="number" min="0.1" max="500" step="0.1" bind:value="{pointDensity}" />
-			<label for="point-density">Density (pts per oz)</label>
+			<input id="me-point-density" class="small" type="number" min="0.1" max="500" step="0.1" bind:value="{pointDensity}" />
+			<label for="me-point-density">Density (pts per oz)</label>
 		</div>
 		<div class="col s4 input-field">
 			<button class="btn waves-effect waves-light" type="submit">Add<i class="material-icons right">add</i></button>
