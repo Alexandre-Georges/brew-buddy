@@ -76,7 +76,7 @@ export const ibusTotal = derived(
 	store,
 	$store => {
 		if (!isSet($store.gallonBoilVolume) || !isSet($store.gallonTargetVolume) || !isSet($store.targetGravity)) {
-			return 0
+			return 0;
 		}
 		return $store.hops.reduce((total, hop) => {
 			return total + computeIBUs($store.gallonBoilVolume, $store.gallonTargetVolume, $store.targetGravity, hop);

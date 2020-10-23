@@ -19,6 +19,7 @@
     "dev": "webpack-dev-server --content-base public"
   },
   "dependencies": {
-    "materialize-css": "^1.0.0"
+    "materialize-css": "^1.0.0",
+    "ml-fcnnls": "^1.1.0"
   }
 }

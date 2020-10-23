@@ -2,6 +2,7 @@
 	import MaltExtracts from './components/MaltExtracts.svelte';
 	import DmeLmeConversion from './components/DmeLmeConversion.svelte';
 	import ConcentratedGravity from './components/ConcentratedGravity.svelte';
+	import WaterChemistry from './components/WaterChemistry.svelte';
 	import GravityCorrection from './components/GravityCorrection.svelte';
 	import MaltPoints from './components/MaltPoints.svelte';
 	import HopBittering from './components/HopBittering.svelte';
@@ -23,6 +24,9 @@
 				</div>
 				<div class="row">
 					<ConcentratedGravity></ConcentratedGravity>
+				</div>
+				<div class="row">
+					<WaterChemistry></WaterChemistry>
 				</div>
 				<div class="row">
 					<GravityCorrection></GravityCorrection>
